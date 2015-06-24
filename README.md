@@ -146,9 +146,9 @@ org.clueweb.ranking.BFScan [document vectors path] [# top documents] [dictionary
 ```
 Data Location on Streeling
 --------------------------
-document vectors: /scratch0/jia/lts/docvectors
-dictionary: /scratch0/jia/lts/dictionary
-query: /scratch0/jia/lts/web-13-14.topics
++ document vectors: /scratch0/jia/lts/docvectors
++ dictionary: /scratch0/jia/lts/dictionary
++ query: /scratch0/jia/lts/web-13-14.topics
 
 License
 -------
