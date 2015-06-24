@@ -138,6 +138,18 @@ Size comparisons, on the entire ClueWeb12 collection:
 + 0.86 TB: repackaged as `PForDocVector`s
 + ~1.6 TB: uncompressed termids (collection size is ~400 billion terms)
 
+Running JAVA Multithread Brute Force Scan
+------------------------------------------
+```
+java -cp target/clueweb-tools-0.X-SNAPSHOT-fatjar.jar \
+org.clueweb.ranking.BFScan [document vectors path] [# top documents] [dictionary path] [# Thread] [query file]
+```
+Data Location on Streeling
+--------------------------
+document vectors: /scratch0/jia/lts/docvectors
+dictionary: /scratch0/jia/lts/dictionary
+query: /scratch0/jia/lts/web-13-14.topics
+
 License
 -------
 
