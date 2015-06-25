@@ -150,6 +150,17 @@ org.clueweb.ranking.BFScan [document vectors path] [# top documents] [dictionary
 + dictionary: /scratch0/jia/lts/dictionary
 + query: /scratch0/jia/lts/web-13-14.topics
 
+Running SPARK Brute Force Scan
+------------------------------------------
+```
+spark-submit --class org.clueweb.spark.BFScanSpark --executor-memory 2G --num-executors 50 \ 
+target/clueweb-tools-0.X-SNAPSHOT-fatjar.jar  [document vectors] [dictionary] [query file] [# top doc]
+
+**Data Location on HDFS**
++ document vectors: /shared/lts/docvectors
++ dictionary: /shared/lts/dictionary
++ query: /shared/lts/web-13-14.topics
+
 License
 -------
 
