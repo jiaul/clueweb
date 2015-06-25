@@ -155,6 +155,7 @@ Running SPARK Brute Force Scan
 ```
 spark-submit --class org.clueweb.spark.BFScanSpark --executor-memory 2G --num-executors 50 \ 
 target/clueweb-tools-0.X-SNAPSHOT-fatjar.jar  [document vectors] [dictionary] [query file] [# top doc]
+```
 
 **Data Location on HDFS**
 + document vectors: /shared/lts/docvectors
