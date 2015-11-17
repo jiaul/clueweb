@@ -140,6 +140,7 @@ Size comparisons, on the entire ClueWeb12 collection:
 
 Running JAVA Multithread Brute Force Scan
 ------------------------------------------
+**1. On uncompressed document as flat array of terms** 
 ```
 java -cp target/clueweb-tools-0.X-SNAPSHOT-fatjar.jar \
 org.clueweb.ranking.BFScan [document vectors path] [# top documents] [dictionary path] [# Thread] [query file]
